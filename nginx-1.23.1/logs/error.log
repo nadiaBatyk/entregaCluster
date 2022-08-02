@@ -1,0 +1,20 @@
+2022/07/31 23:03:57 [error] 12368#10856: *4 "C:\Users\nadia\OneDrive\Documents\programacion\Backend-Coder\entrega-Balance\nginx-1.23.1/html/datos/index.html" is not found (3: El sistema no puede encontrar la ruta especificada), client: 127.0.0.1, server: localhost, request: "GET /datos/ HTTP/1.1", host: "localhost"
+2022/07/31 23:04:01 [error] 12368#10856: *4 "C:\Users\nadia\OneDrive\Documents\programacion\Backend-Coder\entrega-Balance\nginx-1.23.1/html/datos/index.html" is not found (3: El sistema no puede encontrar la ruta especificada), client: 127.0.0.1, server: localhost, request: "GET /datos/ HTTP/1.1", host: "localhost"
+2022/07/31 23:04:25 [error] 12368#10856: *4 "C:\Users\nadia\OneDrive\Documents\programacion\Backend-Coder\entrega-Balance\nginx-1.23.1/html/datos/index.html" is not found (3: El sistema no puede encontrar la ruta especificada), client: 127.0.0.1, server: localhost, request: "GET /datos/ HTTP/1.1", host: "localhost"
+2022/07/31 23:04:28 [error] 12368#10856: *4 "C:\Users\nadia\OneDrive\Documents\programacion\Backend-Coder\entrega-Balance\nginx-1.23.1/html/datos/index.html" is not found (3: El sistema no puede encontrar la ruta especificada), client: 127.0.0.1, server: localhost, request: "GET /datos/ HTTP/1.1", host: "localhost"
+2022/07/31 23:05:15 [emerg] 8900#916: invalid parameter "weight:3" in C:\Users\nadia\OneDrive\Documents\programacion\Backend-Coder\entrega-Balance\nginx-1.23.1/conf/nginx.conf:13
+2022/07/31 23:05:15 [alert] 7372#10060: worker process 8900 exited with code 1
+2022/07/31 23:05:15 [alert] 7372#10060: could not respawn worker
+2022/07/31 23:05:23 [emerg] 14528#8108: invalid parameter "weight:3" in C:\Users\nadia\OneDrive\Documents\programacion\Backend-Coder\entrega-Balance\nginx-1.23.1/conf/nginx.conf:13
+2022/07/31 23:07:46 [emerg] 4872#7944: invalid parameter "weight:3" in C:\Users\nadia\OneDrive\Documents\programacion\Backend-Coder\entrega-Balance\nginx-1.23.1/conf/nginx.conf:13
+2022/07/31 23:11:06 [emerg] 15192#7200: unexpected "}" in C:\Users\nadia\OneDrive\Documents\programacion\Backend-Coder\entrega-Balance\nginx-1.23.1/conf/nginx.conf:13
+2022/07/31 23:11:11 [emerg] 468#15324: unexpected "}" in C:\Users\nadia\OneDrive\Documents\programacion\Backend-Coder\entrega-Balance\nginx-1.23.1/conf/nginx.conf:13
+2022/07/31 23:11:14 [emerg] 14760#632: unexpected "}" in C:\Users\nadia\OneDrive\Documents\programacion\Backend-Coder\entrega-Balance\nginx-1.23.1/conf/nginx.conf:13
+2022/07/31 23:11:19 [emerg] 14220#12380: unexpected "}" in C:\Users\nadia\OneDrive\Documents\programacion\Backend-Coder\entrega-Balance\nginx-1.23.1/conf/nginx.conf:13
+2022/07/31 23:11:21 [emerg] 6532#7936: unexpected "}" in C:\Users\nadia\OneDrive\Documents\programacion\Backend-Coder\entrega-Balance\nginx-1.23.1/conf/nginx.conf:13
+2022/07/31 23:11:22 [emerg] 8424#11584: unexpected "}" in C:\Users\nadia\OneDrive\Documents\programacion\Backend-Coder\entrega-Balance\nginx-1.23.1/conf/nginx.conf:13
+2022/08/02 20:30:21 [emerg] 13488#11272: unexpected "}" in C:\Users\nadia\OneDrive\Documents\programacion\Backend-Coder\entrega-Balance\nginx-1.23.1/conf/nginx.conf:13
+2022/08/02 20:33:54 [emerg] 13796#6008: unexpected "}" in C:\Users\nadia\OneDrive\Documents\programacion\Backend-Coder\entrega-Balance\nginx-1.23.1/conf/nginx.conf:13
+2022/08/02 20:35:09 [emerg] 7384#7296: directive "root" is not terminated by ";" in C:\Users\nadia\OneDrive\Documents\programacion\Backend-Coder\entrega-Balance\nginx-1.23.1/conf/nginx.conf:23
+2022/08/02 20:36:31 [emerg] 1080#10092: directive "root" is not terminated by ";" in C:\Users\nadia\OneDrive\Documents\programacion\Backend-Coder\entrega-Balance\nginx-1.23.1/conf/nginx.conf:23
+2022/08/02 20:36:48 [emerg] 13500#5288: directive "root" is not terminated by ";" in C:\Users\nadia\OneDrive\Documents\programacion\Backend-Coder\entrega-Balance\nginx-1.23.1/conf/nginx.conf:23
