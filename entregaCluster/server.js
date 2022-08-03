@@ -45,7 +45,7 @@ app.use(
 app.use(passport.initialize());
 app.use(passport.session());
 //middleware para cargar archivos
-app.use(express.static(__dirname + "/public"));
+//app.use(express.static(__dirname + "/public"));
 
 //MOTOR DE PLANTILLAS
 app.set("view engine", "hbs");
@@ -127,7 +127,7 @@ const arg = parseArgs(process.argv.slice(2));
 
 const PORT = process.env.PORT || 8080;
 const server = httpServer.listen(PORT, () => {
-  console.log(`servidor en puerto ${server.address().port}`);
+  console.log(`Sever started on ${PORT} proceso ${process.pid}`);
 });
 //por si hay errores en el servidor
 server.on("error", (error) => console.log(`error en el servidor ${error}`));
