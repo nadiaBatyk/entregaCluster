@@ -119,13 +119,13 @@ socketServer.on("connection", (socket) => {
 app.use("/productos", rutasProducto);
 app.use("/api/productos-test", rutasTest);
 app.use("/info", infoRutas);
-app.use("/api/randoms", randomsRutas);
+app.use("/api/randoms/", randomsRutas);
 app.use("/", loginRutas);
 //PUERTO
 
 const arg = parseArgs(process.argv.slice(2));
 
-const PORT = arg._[0] || 8080;
+const PORT = process.env.PORT || 8080;
 const server = httpServer.listen(PORT, () => {
   console.log(`servidor en puerto ${server.address().port}`);
 });

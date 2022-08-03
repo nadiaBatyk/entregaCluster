@@ -9,18 +9,24 @@ function isAuth(req, res, next) {
     res.render("layouts\\login", { layout: "login" });
   }
 }
-//cuando le pegan al endpoint / render index.hbs
-router.get("/", isAuth, (req, res) => {
-  const logica = fork("./fork/random.js");
-  let { cant } = req.query;
+let randomGen = (cantidad) => {
+  let obj = {};
+  for (let index = 1; index <= cantidad; index++) {
+    let num = Math.floor(Math.random() * 1000 + 1);
+    obj[num] = obj[num] + 1 || 1;
+  }
 
-  logica.send({ cantidad: +cant || 10000000 });
-  logica.on("message", (objeto) => {
-   
-    res.render("layouts\\randoms", {
-      layout: "randoms",
-      objeto,
-    });
+  return obj;
+};
+//cuando le pegan al endpoint / render index.hbs
+router.get("/", (req, res) => {
+  let cant = +req.query.cant || 10000000;
+
+  const objeto = randomGen(cant);
+
+  res.render("layouts\\randoms", {
+    layout: "randoms",
+    objeto,
   });
 });
 
